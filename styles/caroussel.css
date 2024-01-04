@@ -1,0 +1,32 @@
+.container {
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.btn{
+    /* filter: invert(100%); */
+    color: red;
+}
+
+
+.btn-prev, .btn-next {
+    filter: invert(100%);  
+}
+ 
+.active {
+    font: bold;
+    text-decoration: underline;
+}
+.englobe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+p {
+    color: red;
+    margin-left: 10px;
+}
